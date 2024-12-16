@@ -1,7 +1,7 @@
 {
- "homepage": "https://Prithvi-Bishwokarma.github.io/Fundedvibe",
   "name": "bigtech_react",
   "version": "0.1.0",
+  "homepage": "https://Prithvi-Bishwokarma.github.io/Fundedvibe",
   "private": true,
   "dependencies": {
     "@tanstack/react-table": "^8.20.5",
@@ -22,12 +22,12 @@
     "wow.js": "^1.2.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
