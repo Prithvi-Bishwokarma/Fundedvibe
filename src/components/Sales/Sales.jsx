@@ -87,7 +87,7 @@ const Sales = () => {
               <div className="chart-content wow fadeInLeft" data-wow-delay=".2s">
                 <div className="section-title text-center mb-70">
                   <h2 className="title">
-                    Choose the Best <span>Plan</span>
+                    Choose the Best Plan
                   </h2>
                 </div>
                 {/* <ul className="nav-tabs" id="myTab" role="tablist">

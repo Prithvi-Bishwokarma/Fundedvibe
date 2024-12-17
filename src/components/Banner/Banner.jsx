@@ -2,7 +2,7 @@ import React from "react";
 import shape01 from "../../assets/img/banner/banner_shape01.png";
 import shape02 from "../../assets/img/banner/banner_shape02.png";
 import shape03 from "../../assets/img/banner/banner_shape03.png";
-import fireIcon from "../../assets/img/icon/fire.png";
+import shape04 from "../../assets/img/banner/banner_shape04.png";
 import CountDownOne from "../CountDown/CountDownOne";
 
 const Banner = (props) => {
@@ -12,18 +12,19 @@ const Banner = (props) => {
         <img src={shape01} alt="" className="img-one" />
         <img src={shape02} alt="" className="img-two" />
         <img src={shape03} alt="" className="img-three" />
+        <img src={shape04} alt="" className="img-four" />
       </div>
 
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12">
-            <div className="banner-content text-center">
-              <img src={fireIcon} alt="" />
+            <div className="banner-content text-left">
               <h2 className="title">
-                We don’t do demos you get real accounts real funds and real rewards.
+                Instant funding No need to prove your skill.
               </h2>
-              <h3>No Simulations. No Gimmicks. Just Real Trading.</h3>
-              <div className="btn">Free Trail</div>
+              <p>At FundedVibe, we redefine trading by offering a transparent and authentic funded program that empowers traders to succeed with 100% real accounts not demos. Whether you're an experienced trader or just starting out, our program is designed to help you take your trading journey to the next level.</p>
+              <div className="btn">Start Challenge</div>
+              <div className="btn free-trail">Free Trail</div>
             </div>
             {/* <div className="banner-progress-wrap">
               <ul>

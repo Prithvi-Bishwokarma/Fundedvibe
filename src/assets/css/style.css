@@ -32,6 +32,7 @@
 
 */
 
+
 /* 1. Theme default css */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 body {
@@ -254,7 +255,9 @@ label {
   transition: all 0.4s 0s;
   vertical-align: middle;
   white-space: nowrap;
-  box-shadow: 0px 6px 22px rgba(6, 34, 51, 0.22);
+  background: linear-gradient(135deg, #3104ac, #6e02a0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-clip: padding-box;
   position: relative;
 }
@@ -266,19 +269,14 @@ label {
   right: 0;
   bottom: 0;
   margin: -2px;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 196, 244, 1) 0%,
-    rgba(4, 12, 21, 1) 49%,
-    rgba(0, 196, 244, 1) 100%
-  );
+  background: linear-gradient(135deg, #3104ac, #6e02a0);
   border-radius: 70px;
   transition: all 0.4s ease 0s;
   z-index: -1;
 }
 .btn:hover {
-  border-color: #00c4f4;
-  color: #00c4f4;
+  border-color: #564dca;
+  color: #fff;
 }
 .btn.btn-two {
   background: #564dca;
@@ -349,6 +347,13 @@ label {
 }
 .custom-container-four {
   max-width: 1200px;
+}
+
+header {
+  background: linear-gradient(-90deg, #3104ac, #6e02a0);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-clip: padding-box;
 }
 .transparent-header {
   position: absolute;
@@ -519,6 +524,7 @@ label {
 .header-btn .btn {
   font-size: 14px;
   padding: 15px 45px;
+  border-color: #564dca;
 }
 .navbar-wrap ul li .sub-menu {
   position: absolute;
@@ -883,12 +889,12 @@ label {
 
 /* 4. Banner */
 .banner-bg {
-  background-image: url(../img/banner/banner_bg05.webp);
+  background-image: url(../img/banner/banner_bg04.jpg);
   background-position: top;
   background-size: cover;
   position: relative;
   z-index: 1;
-  padding: 130px 0;
+  padding: 180px 0;
   overflow: hidden;
 }
 .banner-bg::before {
@@ -906,8 +912,16 @@ label {
   z-index: -1;
 }
 .banner-content {
-  width: 65%;
-  margin: auto;
+  width: 60%;
+}
+
+.banner-content .free-trail {
+  margin-left: 15px;
+}
+.banner-content p {
+ color: #fff;
+ font-size: 18px;
+ padding-bottom: 20px;
 }
 .banner-shape-wrap img {
   position: absolute;
@@ -933,12 +947,22 @@ label {
   bottom: 14%;
   animation: alltuchtopdown 3s infinite linear;
 }
+
+.banner-shape-wrap img.img-four {
+  left: auto;
+  right: 10%;
+  top: auto;
+  bottom: 5%;
+  animation: alltuchtopdown 3s infinite linear;
+  width: 600px;
+  /* transform: rotate(-32deg); */
+}
 .banner-content img {
   margin-bottom: 25px;
 }
 .banner-content .title {
-  font-size: 55px;
-  margin-bottom: 45px;
+  font-size: 60px;
+  margin-bottom: 40px;
   line-height: 1.4;
   letter-spacing: -0.01em;
 }
@@ -1372,6 +1396,46 @@ label {
   background: linear-gradient(180deg, #8055FF 0%, #4D19E0 100%);
 }
 
+.tradeup-area {
+  background: #030b15;
+}
+.tradeup-area .tradeup-content {
+  background: linear-gradient(135deg, #3104ac, #6e02a0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-clip: padding-box;
+  padding: 40px;
+  border-radius: 10px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.tradeup-area .tradeup-content img {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.tradeup-area .tradeup-content p {
+  color: #f9f9f9;
+  padding-top: 10px;
+}
+
+.tradeup-content.tradeup-innerimg {
+  background-image: url(../img/banner/banner_bg04.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.tradeup-area .section-title .title {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
 /* 7. About */
 .about-img {
   position: relative;
@@ -1382,6 +1446,11 @@ label {
   top: 40px;
   animation: leftToRight 5s infinite linear;
 }
+
+.about-img img.img-one {
+  animation: leftToRight 5s infinite linear;
+}
+
 
 .about-content h4.title {
   font-size: 20px;
@@ -1678,7 +1747,10 @@ label {
 }
 
 .tab-content {
-  background-image: url(../img/banner/banner_bg04.webp);
+  background: linear-gradient(135deg, #3104ac, #6e02a0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-clip: padding-box;
   background-size: cover;    
   background-position: right;
   border-radius: 20px;
@@ -1721,7 +1793,7 @@ label {
 }
 .chart-content-inner .title {
   font-size: 55px;
-  margin-bottom: 35px;
+  padding-top: 35px;
   letter-spacing: -0.01em;
   line-height: 1.2;
 }
@@ -1731,7 +1803,10 @@ label {
   padding: 30px 0 50px;
 }
 .chart-content-inner .btn {
-  background: #544de1;
+  background: linear-gradient(135deg, #3104ac, #6e02a0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-clip: padding-box;
 }
 .chart-content-inner .btn:hover {
   color: #fff;
@@ -1807,20 +1882,24 @@ table {
 }
 
 /* .programtable table tr:nth-child(even) {
-  background-color: #030b15;
+  background-color: #fff;
 }  */
   
-td:nth-child(even), th:nth-child(even) {
+/* td:nth-child(even), th:nth-child(even) {
   background-color: #030b15;
+} */
+
+td {
+  background: #030b15;
 }
 
 th {
   font-size: 20px;
   padding: 20px 0;
-  letter-spacing: 1px;    font-size: 20px;
+  letter-spacing: 1px;    
+  font-size: 20px;
   padding: 20px 0;
   letter-spacing: 1px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #0069DF, rgba(0, 0, 0, 0));
 }
 
 td {
@@ -2356,7 +2435,10 @@ td {
 
 /* 15. Faq */
 .faq-area {
-  background-image: url(../img/bg/contact_bg02.jpg);
+  background: linear-gradient(135deg, #3104ac, #6e02a0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-clip: padding-box;
   background-size: cover;
   background-position: top;
   padding: 120px 0 130px;
@@ -2452,7 +2534,6 @@ td {
   right: 50px;
   top: 36px;
   color: #fff;
-  opacity: 0.3;
 }
 .faq-wrap .accordion-button:not(.collapsed)::after {
   background-image: none;

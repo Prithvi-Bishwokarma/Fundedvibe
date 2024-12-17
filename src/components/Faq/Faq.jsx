@@ -103,7 +103,7 @@ const Faq = () => {
       <div className="container custom-container-four">
         <div className="faq-shape-wrap">
           <img src={shape01} alt="" className="img-one" />
-          <img src={shape02} alt="" className="img-two rotateme" />
+          {/* <img src={shape02} alt="" className="img-two rotateme" /> */}
         </div>
 
         <div className="row">

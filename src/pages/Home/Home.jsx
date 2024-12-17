@@ -9,6 +9,7 @@ import WhitePaper from "../../components/WhitePaper/WhitePaper";
 import WhoWeAre from "../../components/WhoWeAre/WhoWeAre";
 import TradeUpTo from "../../components/TradeUpTo/TradeUpTo";
 import Faq from "../../components/Faq/Faq";
+import WhyChoose from "../../components/WhyChoose/WhyChoose";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import LayoutOne from "../../layouts/LayoutOne";
 
@@ -17,6 +18,7 @@ const Home = () => {
     <LayoutOne>
       <main className="fix">
         <Banner />
+        
         <WhoWeAre />
 
         <TradeUpTo />
@@ -27,6 +29,7 @@ const Home = () => {
         <WhyChooseUs />
         <Sales />
         <Faq />
+        <WhyChoose />
         <ContactOne />
         <TopPartners />
       </main>
