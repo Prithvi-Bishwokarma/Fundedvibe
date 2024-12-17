@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home";
 import { useEffect } from "react";
 import WOW from "wow.js";
 import HomeTwo from "./pages/Home/HomeTwo";
+import About from "./pages/Home/About";
 import Blog from "./pages/Blog/Blog";
 import BlogDetailsPage from "./pages/BlogDetails/BlogDetailsPage";
 import { useLocation } from "react-router-dom";
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="home-two" element={<HomeTwo />} />
+        <Route path="about" element={<About />} />
         <Route path="blog" element={<Blog />} />
         <Route path="blog-details" element={<BlogDetailsPage />} />
       </Routes>

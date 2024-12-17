@@ -405,7 +405,7 @@ label {
   bottom: 0;
   width: 100%;
   height: 3px;
-  background: #00c4f4;
+  background: #544de1;
   -webkit-transform-origin: right top;
   -ms-transform-origin: right top;
   transform-origin: right top;
@@ -474,7 +474,7 @@ label {
   display: block;
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
-  color: #00c4f4;
+  color: #544de1;
   margin-left: 10px;
 }
 .header-lang .lang-list {
@@ -675,12 +675,9 @@ label {
 }
 
 .menu-wrap .menu-nav img {
-  width: 140px;
-  height: 80px;
-  background: #fff;
-  object-fit: contain;
-  border-radius: 10px 10px 0;
-  padding: 5px;
+  width: 170px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .mobile-menu-visible {
@@ -949,7 +946,7 @@ label {
   padding-bottom: 30px;
 }
 .banner-content .title span {
-  color: #00c4f4;
+  color: #544de1;
 }
 .banner-progress-wrap ul {
   display: flex;
@@ -962,7 +959,7 @@ label {
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
-  color: #00c4f4;
+  color: #544de1  ;
   display: inline-block;
   position: relative;
   padding-bottom: 25px;
@@ -1370,11 +1367,14 @@ label {
   border-color: #12d176;
 }
 
+/* TradeUpTo */
+.TradeUpTo {
+  background: linear-gradient(180deg, #8055FF 0%, #4D19E0 100%);
+}
 
 /* 7. About */
 .about-img {
   position: relative;
-  padding-left: 120px;
 }
 .about-img img.img-two {
   position: absolute;
@@ -1382,9 +1382,12 @@ label {
   top: 40px;
   animation: leftToRight 5s infinite linear;
 }
-.about-content {
-  margin-left: 70px;
+
+.about-content h4.title {
+  font-size: 20px;
+  font-weight: 100;
 }
+
 .section-title .sub-title {
   text-transform: uppercase;
   color: #fff;
@@ -1610,7 +1613,7 @@ label {
 .choose-area .slide-progressbar .slide-filler {
 
   height: 2px;
-  background-image: linear-gradient(to right, #00c4f4, #00c4f4);
+  background-image: linear-gradient(to right, #544de1, #544de1);
   background-repeat: no-repeat;
   /* background-size: 0 100%; */
   transition: background-size 0.4s ease-in-out;
@@ -1728,7 +1731,7 @@ label {
   padding: 30px 0 50px;
 }
 .chart-content-inner .btn {
-  background: #00c4f4;
+  background: #544de1;
 }
 .chart-content-inner .btn:hover {
   color: #fff;
@@ -1962,7 +1965,7 @@ td {
   background: #00c4f4;
 }
 .roadmap-content .title {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -3290,12 +3293,9 @@ td {
   display: block;
 }
 .footer-widget .f-logo img {
-  width: 160px;
-  height: 90px;
-  background: #fff;
-  padding: 15px;
+  width: 170px;
+  height: 100%;
   object-fit: cover;
-  border-radius: 10px 10px 0;
 }
 .footer-content p {
   margin-bottom: 25px;
@@ -3324,8 +3324,8 @@ td {
   font-weight: 400;
 }
 .footer-content .footer-social li a:hover {
-  background: #00c4f4;
-  border-color: #00c4f4;
+  background: #544de1;
+  border-color: #544de1;
 }
 .footer-widget .fw-title {
   font-size: 18px;
@@ -3410,7 +3410,7 @@ td {
   top: 0;
   width: 65px;
   height: 72px;
-  background: #00c4f4;
+  background: #544de1;
   border-radius: 10px;
   font-size: 20px;
   color: #fff;

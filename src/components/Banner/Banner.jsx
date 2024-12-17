@@ -20,7 +20,7 @@ const Banner = (props) => {
             <div className="banner-content text-center">
               <img src={fireIcon} alt="" />
               <h2 className="title">
-                We don’t do demos you get real accounts real funds and real <span>rewards.</span>
+                We don’t do demos you get real accounts real funds and real rewards.
               </h2>
               <h3>No Simulations. No Gimmicks. Just Real Trading.</h3>
               <div className="btn">Free Trail</div>

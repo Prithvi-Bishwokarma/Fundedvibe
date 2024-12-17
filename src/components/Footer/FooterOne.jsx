@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../../../src/assets/img/logo/fundedvibe-logo.png";
+import logoImage from "../../../src/assets/img/logo/logo01.png";
 import { scrollToTop } from "../../lib/helpers";
 
 const FooterOne = () => {

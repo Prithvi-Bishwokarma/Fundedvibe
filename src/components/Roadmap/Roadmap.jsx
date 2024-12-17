@@ -64,7 +64,6 @@ const Roadmap = () => {
         <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-8">
             <div className="section-title text-center mb-60">
-              <span className="sub-title">Our Roadmap</span>
               <h2 className="title">
                 Fundedvibe Strategy and Product <span>Plan</span>
               </h2>

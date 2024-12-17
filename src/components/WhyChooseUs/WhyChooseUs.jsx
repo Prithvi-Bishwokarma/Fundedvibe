@@ -116,9 +116,8 @@ const WhyChooseUs = () => {
         <div className="row justify-content-center">
           <div className="col-xl-6">
             <div className="section-title text-center mb-50">
-              <span className="sub-title">why Choose us </span>
               <h2 className="title">
-                Benefits of choosing <span>Fundedvibe</span>
+                Benefits of choosing Fundedvibe
               </h2>
             </div>
           </div>

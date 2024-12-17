@@ -38,7 +38,6 @@ const ContactOne = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center mb-70">
-              <span className="sub-title">Contact</span>
               <h2 className="title">
                  Ready to <span>grow?</span>
               </h2>

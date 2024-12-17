@@ -86,7 +86,6 @@ const Sales = () => {
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="chart-content wow fadeInLeft" data-wow-delay=".2s">
                 <div className="section-title text-center mb-70">
-                  <span className="sub-title">Our Program</span>
                   <h2 className="title">
                     Choose the Best <span>Plan</span>
                   </h2>

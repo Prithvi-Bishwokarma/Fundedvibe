@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import cn from "classnames";
-import logoImage from "../../../src/assets/img/logo/fundedvibe-logo.png";
+import logoImage from "../../../src/assets/img/logo/logo02.png";
 import $ from "jquery";
 import { handleClickScroll } from "../../lib/helpers";
 
@@ -83,7 +83,7 @@ const HeaderOne = () => {
                 <nav className={"menu-nav"}>
                   <div className="logo">
                     <Link to={"/"}>
-                      <img src={logoImage} alt="BigTech Logo" />
+                      <img src={logoImage} alt="FundedVibe Logo" />
                     </Link>
                   </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import img01 from "../../assets/img/images/about_img01.png";
+import img01 from "../../assets/img/images/about_img03.png";
 import img02 from "../../assets/img/images/about_img02.png";
 import { Link } from "react-router-dom";
 
@@ -17,16 +17,15 @@ const WhoWeAre = (props) => {
           <div className="col-lg-6">
             <div className="about-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title mb-30">
-                <span className="sub-title">Who we are</span>
                 <h2 className="title">
-                  We redefine trading by offering a transparent <br /> and authentic funded <span>program</span>
+                  We redefine trading by offering a transparent <br /> and authentic funded program
                 </h2>
               </div>
               <p>
                 At FundedVibe, we redefine trading by offering a transparent and authentic
                 funded program that empowers traders to succeed with 100% real accounts not demos.
               </p>
-              <Link to="/" className="btn">
+              <Link to="/About" className="btn">
                 view more
               </Link>
             </div>

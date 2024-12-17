@@ -8,27 +8,13 @@ const TradeUpTo = (props) => {
     <section id="about" className="about-area pt-130 pb-130">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div className="about-img wow fadeInLeft" data-wow-delay=".2s">
-              <img src={img01} alt="" />
-              <img src={img02} alt="" className="img-two" />
-            </div>
-          </div>
-          <div className="col-lg-6">
+          <div className="col-lg-4">
             <div className="about-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title mb-30">
-                <span className="sub-title">Trade up</span>
-                <h2 className="title">
-                  TRADE UP TO $10K Guaranteed <span>100% Payout.</span>
-                </h2>
+                <h4 className="title">
+                  70/30 Profit Slipt <span>100% Payout.</span>
+                </h4>
               </div>
-              <p>
-                At FundedVibe, we redefine trading by offering a transparent and authentic
-                funded program that empowers traders to succeed with 100% real accounts not demos.
-              </p>
-              <Link to="/" className="btn">
-                view more
-              </Link>
             </div>
           </div>
         </div>
