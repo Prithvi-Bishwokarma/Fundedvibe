@@ -67,13 +67,13 @@ const FooterOne = () => {
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link to="/">About Us</Link>
+                        <Link to="/About">About</Link>
                       </li>
                       <li>
                         <Link to="/">Product</Link>
                       </li>
                       <li>
-                        <Link to="/">Rules</Link>
+                        <Link to="/Rules">Rules</Link>
                       </li>
                       <li>
                         <Link to="/">Blog</Link>
@@ -139,13 +139,13 @@ const FooterOne = () => {
                 <div className="footer-menu">
                   <ul>
                   <li>
-                      <Link to="#">Terms and Conditions</Link>
+                      <Link to="/TermsConditions">Terms and Conditions</Link>
                     </li>
                     <li>
-                      <Link to="#">Risk Disclosure</Link>
+                      <Link to="/RiskDisclosure">Risk Disclosure</Link>
                     </li>
                     <li>
-                      <Link to="#">Disclaimer</Link>
+                      <Link to="/Disclaimer">Disclaimer</Link>
                     </li>
                   </ul>
                 </div>

@@ -65,7 +65,7 @@ const Roadmap = () => {
           <div className="col-xl-5 col-lg-8">
             <div className="section-title text-center mb-60">
               <h2 className="title">
-                Fundedvibe Strategy and Product <span>Plan</span>
+                Fundedvibe Strategy and Product Plan
               </h2>
             </div>
           </div>

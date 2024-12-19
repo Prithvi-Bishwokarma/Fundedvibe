@@ -39,7 +39,7 @@ const ContactOne = () => {
           <div className="col-lg-8">
             <div className="section-title text-center mb-70">
               <h2 className="title">
-                 Ready to <span>grow?</span>
+                 Ready to grow?
               </h2>
             </div>
           </div>

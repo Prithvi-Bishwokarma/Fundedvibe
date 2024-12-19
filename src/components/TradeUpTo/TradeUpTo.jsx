@@ -1,11 +1,22 @@
 import React from "react";
 import img01 from "../../assets/img/icon/icon01.png";
+import img02 from "../../assets/img/icon/icon02.png";
+import img03 from "../../assets/img/icon/icon03.png";
+import img04 from "../../assets/img/icon/icon04.png";
+import img05 from "../../assets/img/icon/icon05.png";
+import img06 from "../../assets/img/icon/icon06.png";
 import { Link } from "react-router-dom";
 
 const TradeUpTo = (props) => {
   return (
     <section id="tradeup" className="tradeup-area pt-130 pb-130">
       <div className="container">
+          <div className="section-title text-center section-title-two mb-15">
+            <h2 className="title">
+              No Simulations, No Gimmicks, Just Real Trading.
+            </h2>
+            <p className="heading-title">Power up your trading success with FunedVibe & get maximum profit form day One.</p>
+          </div>
         <div className="row align-items-center text-center">
           <div className="col-lg-4">
             <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
@@ -19,9 +30,9 @@ const TradeUpTo = (props) => {
           <div className="col-lg-4">
             <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title">
-                <img src={img01} alt="" />
+                <img src={img02} alt="" />
                 <h4 className="title">
-                  100% real account.Not Demos.
+                  100% real account. Not Demos.
                 </h4>
                 <p>Trade with 100% real accounts, not demos. Experience genuine trading from day one.</p>
               </div>
@@ -30,7 +41,7 @@ const TradeUpTo = (props) => {
           <div className="col-lg-4">
             <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title">
-                <img src={img01} alt="" />
+                <img src={img03} alt="" />
                 <h4 className="title">
                   No hidden costs. No Clickbait.
                 </h4>
@@ -41,7 +52,7 @@ const TradeUpTo = (props) => {
           <div className="col-lg-4">
             <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title">
-                <img src={img01} alt="" />
+                <img src={img04} alt="" />
                 <h4 className="title">
                   Get Paid in 24 hours
                 </h4>
@@ -52,7 +63,7 @@ const TradeUpTo = (props) => {
           <div className="col-lg-4">
             <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title">
-                <img src={img01} alt="" />
+                <img src={img05} alt="" />
                 <h4 className="title">
                   Reset & Top-up
                 </h4>
@@ -63,7 +74,7 @@ const TradeUpTo = (props) => {
           <div className="col-lg-4">
             <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title">
-                <img src={img01} alt="" />
+                <img src={img06} alt="" />
                 <h4 className="title">
                   Monthly Competition
                 </h4>

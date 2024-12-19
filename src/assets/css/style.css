@@ -260,6 +260,7 @@ label {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-clip: padding-box;
   position: relative;
+  transition: .9s;
 }
 .btn::after {
   content: "";
@@ -350,10 +351,7 @@ label {
 }
 
 header {
-  background: linear-gradient(-90deg, #3104ac, #6e02a0);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background-clip: padding-box;
+  background: #030b15;
 }
 .transparent-header {
   position: absolute;
@@ -894,7 +892,7 @@ header {
   background-size: cover;
   position: relative;
   z-index: 1;
-  padding: 180px 0;
+  padding: 160px 0 60px;
   overflow: hidden;
 }
 .banner-bg::before {
@@ -1406,16 +1404,20 @@ header {
   background-clip: padding-box;
   padding: 40px;
   border-radius: 10px;
-  height: 280px;
+  height: 300px;
   margin-bottom: 30px;
+  transition: .5s;
+}
+
+.tradeup-area .tradeup-content:hover {
+  margin-top: -20px;
+  transition: .5s;
 }
 
 .tradeup-area .tradeup-content img {
   width: 60px;
   height: 60px;
-  background: #fff;
   border-radius: 100%;
-  padding: 5px;
 }
 
 .tradeup-area .tradeup-content p {
@@ -1434,6 +1436,50 @@ header {
   font-weight: 700;
   padding-top: 30px;
   line-height: 30px;
+}
+
+.tradeup-area .section-title {
+  padding-bottom: 40px;
+}
+
+.tradeup-area .section-title p.heading-title {
+  color: #fff;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+/* notimelimit */
+
+.tradeup-area .notimelimit-content {
+  height: 350px;
+}
+
+.tradeup-area .notimelimit-content-right {
+  background-image: url(../img/banner/banner_bg05.webp);
+  background-size: cover;
+  background-position: left;
+}
+.tradeup-area .notimelimit-content:hover {
+  margin-top: 0;
+}
+.notimelimit .section-title h4.title {
+  font-size: 45px;
+  line-height: 60px;
+  padding-top: 0;
+}
+
+.notimelimit .section-title p {
+  font-size: 20px;
+}
+
+.tradeup-area .notimelimit-content .section-title-right {
+  display: flex;
+  align-items: center;
+}
+
+.tradeup-area .notimelimit-content .section-title-right h6.title {
+  padding-top: 0;
+  padding-left: 15px;
 }
 
 /* 7. About */

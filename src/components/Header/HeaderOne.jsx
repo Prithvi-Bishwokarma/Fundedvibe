@@ -150,7 +150,7 @@ const HeaderOne = () => {
                         </Link>
                       </li>
                       <li className={"menu-item-has-children"}>
-                        <Link to="/blog">Rules</Link>
+                        <Link to="/rules">Rules</Link>
                       </li>
                       <li className={isActiveLink("#contact")}>
                         <Link
@@ -165,7 +165,7 @@ const HeaderOne = () => {
                   </div>
                   <div className={cn("header-action", "d-none d-md-block")}>
                     <ul>
-                      <li className={"header-lang"}>
+                      {/* <li className={"header-lang"}>
                         <span className={"selected-lang"}>ENG</span>
                         <ul className={"lang-list"}>
                           <li>
@@ -181,7 +181,7 @@ const HeaderOne = () => {
                             <Link to="#">CIN</Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li className={"header-btn"}>
                         <Link to="#" className="btn">
                           Login

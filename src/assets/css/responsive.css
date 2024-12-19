@@ -42,10 +42,7 @@
     max-height: 65px;
   }
   .nav-logo img {
-    max-height: 65px;
-    background: #fff;
-    border-radius: 10px 10px 0;
-    padding: 5px;
+    max-height: 50px;
   }
   .header-btn .btn {
     padding: 16px 35px;

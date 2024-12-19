@@ -9,13 +9,13 @@ const WhoWeAre = (props) => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <div className="about-img wow fadeInLeft" data-wow-delay=".2s">
+            <div className="about-img wow fadeInLeft" data-wow-delay=".5s">
               <img src={img01} alt="" />
               <img src={img02} alt="" className="img-two" />
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="about-content wow fadeInRight" data-wow-delay=".2s">
+            <div className="about-content wow fadeInRight" data-wow-delay=".5s">
               <div className="section-title mb-30">
                 <h2 className="title">
                   We redefine trading by offering a transparent <br /> and authentic funded program
