@@ -23,10 +23,12 @@ const Home = () => {
         <WhoWeAre />
 
         <TradeUpTo />
+
         <div className="area-bg">
           <Roadmap />
           {/* <WhitePaper /> */}
         </div>
+
         <WhyChooseUs />
 
         <NoTimeLimit />

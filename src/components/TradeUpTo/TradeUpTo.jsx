@@ -19,7 +19,7 @@ const TradeUpTo = (props) => {
           </div>
         <div className="row align-items-center text-center">
           <div className="col-lg-4">
-            <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
+            <div className="tradeup-content wow fadeInRight" data-wow-delay=".5s">
               <div className="section-title">
                 <img src={img01} alt="" />
                 <h4 className="title">70/30% Profit Share from Day One</h4>
@@ -28,7 +28,7 @@ const TradeUpTo = (props) => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
+            <div className="tradeup-content wow fadeInRight" data-wow-delay=".5s">
               <div className="section-title">
                 <img src={img02} alt="" />
                 <h4 className="title">
@@ -39,7 +39,7 @@ const TradeUpTo = (props) => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
+            <div className="tradeup-content wow fadeInRight" data-wow-delay=".5s">
               <div className="section-title">
                 <img src={img03} alt="" />
                 <h4 className="title">
@@ -50,7 +50,7 @@ const TradeUpTo = (props) => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
+            <div className="tradeup-content wow fadeInRight" data-wow-delay=".5s">
               <div className="section-title">
                 <img src={img04} alt="" />
                 <h4 className="title">
@@ -61,7 +61,7 @@ const TradeUpTo = (props) => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
+            <div className="tradeup-content wow fadeInRight" data-wow-delay=".5s">
               <div className="section-title">
                 <img src={img05} alt="" />
                 <h4 className="title">
@@ -72,7 +72,7 @@ const TradeUpTo = (props) => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="tradeup-content wow fadeInRight" data-wow-delay=".2s">
+            <div className="tradeup-content wow fadeInRight" data-wow-delay=".5s">
               <div className="section-title">
                 <img src={img06} alt="" />
                 <h4 className="title">

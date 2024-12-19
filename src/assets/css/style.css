@@ -522,7 +522,6 @@ header {
 .header-btn .btn {
   font-size: 14px;
   padding: 15px 45px;
-  border-color: #564dca;
 }
 .navbar-wrap ul li .sub-menu {
   position: absolute;
@@ -892,7 +891,7 @@ header {
   background-size: cover;
   position: relative;
   z-index: 1;
-  padding: 160px 0 60px;
+  padding: 180px 0 140px;
   overflow: hidden;
 }
 .banner-bg::before {
@@ -1455,9 +1454,9 @@ header {
 }
 
 .tradeup-area .notimelimit-content-right {
-  background-image: url(../img/banner/banner_bg05.webp);
+  background-image: url(../img/banner/banner_bg05.png);
   background-size: cover;
-  background-position: left;
+  background-position: top;
 }
 .tradeup-area .notimelimit-content:hover {
   margin-top: 0;
@@ -1593,17 +1592,18 @@ header {
   line-height: 1.26;
 }
 .about-content-two p {
-  color: #727885;
+  color: #f9f9f9;
   margin-bottom: 20px;
+  text-align: justify;
   width: 80%;
 }
 .about-content-two .about-list {
   margin-bottom: 45px;
 }
 .about-content-two .about-list ul li {
-  display: flex;
-  align-items: baseline;
-  color: #030b15;
+  align-items: baseline;  
+  color: #f9f9f9;
+  font-weight: 100;
   margin-bottom: 10px;
 }
 .about-content-two .about-list ul li:last-child {
@@ -1622,8 +1622,9 @@ header {
   animation: leftToRight 5s infinite linear;
 }
 .about-shape-wrap img.shape-two {
-  right: 7%;
+  left: 7%;
   bottom: 22%;
+  width: 150px;
 }
 .rotateme {
   -webkit-animation-name: rotateme;
@@ -1654,7 +1655,42 @@ header {
   }
 }
 
+/* about-set */
+.about-set {
+  background-image: url(../img/banner/banner_bg05.png);
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+  padding: 60px 80px;
+  margin-bottom: 40px;
+}
+
+.about-set p,
+.about-set ul li {
+  width: 85%;
+}
+
+.about-mission .section-title-two .title,
+.about-mission .about-content-two h6 {
+  color: #727885;
+}
+
+.about-mission .about-content-two p {
+  color: #727885;
+  width: 100%;
+}
+
+.about-mission .about-content-two {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-bottom: 40px;
+  min-height: 600px;
+}
+
 /* 8. Choose */
+.choose-area {
+}
 .choose-area .row {
   margin: 0 -10px;
 }
@@ -1668,6 +1704,10 @@ header {
   border-radius: 15px;
   padding: 60px 40px;
   transition: 0.3s ease-in-out;
+  background: linear-gradient(135deg, #3104ac, #6e02a0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-clip: padding-box;
 }
 .choose-item:hover {
   border-color: transparent;
@@ -1696,7 +1736,7 @@ header {
 }
 .choose-content p {
   margin-bottom: 0px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 22px;
   color: #a4b4c3;
 }
@@ -2310,9 +2350,7 @@ td {
 
 /* 12. Document */
 .area-bg {
-  background-image: url(../img/banner/banner_bg03.png);
-  background-size: cover;
-  background-position: center;
+  background-color: #030b15;
 }
 .document-content .document-list {
   margin-bottom: 40px;
@@ -3395,8 +3433,8 @@ td {
   margin: 0 auto;
 }
 .footer-scroll-wrap .scroll-to-target:hover {
-  background: #00c4f4;
-  border-color: #00c4f4;
+  background: #544de1;
+  border-color: #544de1;
 }
 .footer-scroll-wrap::before {
   content: "";

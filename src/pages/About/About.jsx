@@ -1,12 +1,12 @@
 import React from "react";
-import Banner from "../../components/Banner/Banner";
+import NoTimeLimit from "../../components/NoTimeLimit/NoTimeLimit";
 import LayoutAbout from "../../layouts/LayoutAbout";
 
 const About = () => {
   return (
     <LayoutAbout>
-        <Banner />
         <About />
+        <NoTimeLimit />
     </LayoutAbout>
   );
 };
