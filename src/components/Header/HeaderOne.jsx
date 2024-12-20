@@ -102,16 +102,6 @@ const HeaderOne = () => {
                         >
                           Home
                         </Link>
-                        <ul className={cn("sub-menu")}>
-                          <li className={cn(pathname == "/" && "active")}>
-                            <NavLink to="/">Home One</NavLink>
-                          </li>
-                          <li
-                            className={cn(pathname == "/home-two" && "active")}
-                          >
-                            <NavLink to="/home-two">Home Two</NavLink>
-                          </li>
-                        </ul>
                       </li>
                       <li className={cn(hash == "#about" && "active")}>
                         <Link
